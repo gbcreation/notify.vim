@@ -12,6 +12,7 @@ call notify#setupCommands()
 if !exists('g:notify_emitters')
     let g:notify_emitters = [
         \ 'osascript',
-        \ 'notify_send'
+        \ 'notify_send',
+        \ 'echo_msg'
         \ ]
 endif
